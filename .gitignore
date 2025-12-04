@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Database
+attendance.db
+
+# Enrollment Data
+enroll_thumbs/
+
+# IDE
+.vscode/
+.idea/
