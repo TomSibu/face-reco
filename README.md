@@ -56,6 +56,16 @@ python recognize_safe.py
 - If a face matches a known student for **3 consecutive frames**, attendance is recorded.
 - Press **'q'** to quit.
 
+### 3. Graphical Interface (GUI)
+
+For a more user-friendly experience, use the Tkinter-based GUI.
+
+```bash
+python gui_app.py
+```
+- **Enroll New Student**: Enter name, capture photos, and save.
+- **Start Attendance**: Runs recognition in the window and logs attendance.
+
 ## Files
 - `enroll_simple.py`: Script to enroll new users.
 - `recognize_safe.py`: Main script for recognition and attendance.
