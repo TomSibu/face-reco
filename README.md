@@ -7,9 +7,17 @@ A simple and effective face recognition system for tracking attendance.
 - **Recognition**: Real-time face recognition with "liveness" checks (consecutive frame confirmation) to prevent false positives.
 - **Attendance Tracking**: Automatically records attendance once per day for recognized individuals.
 
-## Prerequisites
+## Installation
 
-Ensure you have Python installed. Install the required dependencies:
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/TomSibu/face-reco.git
+    cd face-reco
+    ```
+
+2.  Install dependencies:
+
+
 
 ```bash
 pip install -r requirements.txt
